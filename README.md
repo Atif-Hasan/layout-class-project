@@ -1,3 +1,3 @@
 # layout-class-project
 
-https://atif-hasan.github.io/layout-class-project/
+https://github.com/Atif-Hasan/layout-class-project
