@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.top-header {
+    background-color: #4385c1;
+  
+    padding:15px 0px;
+}
+
+
+
+h1 {
+    color:#fff;
+    font-size:40px;
+}
+
+h3 {
+    color: #8bc2e9;
+    font-size:16px;
+}
+
+form .search {
+    max-width:50px;
+    
+}
+
+input[type=text] {
+    background-color: #4385c1;
+    border-radius: 5px;
+    border:1px solid #fff;
+    padding:10px;
+    text-align: center;
+    width:100px;
+    font-size: 15px;
+    margin-right: 8px;
+   
+}
+
+::placeholder {
+    color:#fff;
+}
+
+
+
+#menu {
+    background:#043867;
+    padding: 20px 6px;
+    line-height: 2.6rem;
+    color:#135590;
+    
+}
+
+#main {
+    margin-top:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+.main-academics {
+    padding: 50px;
+    background-color: #7aa120;
+    display: flex;
+    align-items: center;
+    margin:10px 50px 0 50px;
+    
+    
+}
+
+.academics-heading, undergraduate-programs-heading {
+    padding:10px;
+}
+
+.text {
+    padding:10px;
+    color: #fff;
+}
+
+
+
+nav {
+    text-align: center;
+}
+
+#menu {
+    display:flex;
+    flex-direction: row;
+}
+
+#menu>nav>ul {
+    text-align: center;
+    
+}
+
+.nowrap {
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 auto;
+    
+    letter-spacing: 1.6;
+    font-weight: 700;
+}
+
+.logo>h2>a {
+    font-size: 48px;
+    
+}
+
+header>nav>ul {
+    display: flex;
+}
+
+.search {
+    vertical-align: center;
+    padding: 20px;
+    
+}
+
+.menu {
+    display:flex;
+    align-items: center;
+}
+
+img {
+    width: 93%;
+}
+
+#main-programs {
+ display: flex;
+ width: 93%;
+ height: 340px;
+ 
+ justify-content: space-between;
+ margin: 25px auto 40px auto;
+}
+
+.undergraduate-programs {
+  background-color: #e7ecf0;
+  width:30%;
+  padding: 20px;
+  
+}
+.research {
+    background-color: #620e6e;
+  width:30%;
+  padding: 20px;
+}
+
+.graduate-programs {
+    margin-left: 12px;
+}
+
+.accelerated-programs {
+    margin-left: 12px;
+}
+
+.undergrauate-text {
+    padding: 15px 4px 15px 4px;
+    font-size: 26px;
+    color:#867b7b;
+}
+
+.research-text {
+    padding: 15px 4px 15px 4px;
+    font-size: 26px;
+    color:#fff;
+}
+
+.undergraduate-programs-heading {
+    font-size: 40px;
+    color: #4992ce;
+}
+.research-heading {
+    font-size: 40px;
+    color: #fff;
+}
+
+.mentoring-heading {
+    color:#fff;
+    font-size: 40px;
+}
+
+h4 {
+    color: #fff;
+}
+
+.mentoring {
+    background-color: #4385c1;
+  width:30%;
+  padding: 20px;
+}
+
+.school-events-heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.year {
+ font-size: 20px;
+ margin-left: 2px;
+ color:#84a863;
+}
+
+.date {
+   font-size: 50px;
+   margin-left: 2px;
+   color:#84a863;
+}
+
+.events {
+    border: 2px solid #d3d3d3;
+    width:60px;
+   
+    
+}
+
+.upcoming-events {
+    display: flex;
+    align-items: center;
+    
+}
+
+.art-text {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.school {
+    margin-top: 10px;
+}
+
+#cta {
+    width: 93%;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto 20px auto;
+}
+
+#cta a {
+    border: 2px solid #4385c1;
+    color: #4385c1;
+    border-radius: 5px;
+    padding: 12px 30px 12px 30px;
+    font-size: 18px;
+    margin-right: 90px;
+}
+
+.btn-group {
+    display: flex;
+  padding: 10px 4px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+
+.footer-widget-column-one {
+    width: 23%;
+}
+
+.footer-widget-column-two {
+    width: 23%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer {
+    padding:40px;
+    background-color: #34383c;
+}
+
+.footer-academics-heading {
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-academics-text {
+    color:#94a8b4;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.logo-text {
+    font-size: 20px;
+}
+
+.img-text {
+
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-img {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    z-index: 0;
+    overflow: hidden;
+   
+}
+
+.slider-heading {
+    font-size: 80px;
+}
+
+.slider-text {
+    font-size: 60px;
+}
+
+
+
+
