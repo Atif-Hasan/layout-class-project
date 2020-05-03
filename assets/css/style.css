@@ -331,6 +331,7 @@ p {
     font-size: 60px;
     z-index: 0;
     overflow: hidden;
+    opacity: 0.8;
    
 }
 
