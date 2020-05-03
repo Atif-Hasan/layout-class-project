@@ -343,6 +343,16 @@ p {
     font-size: 60px;
 }
 
+#menu>nav>ul>li {
+    padding: 19px 45px 10px 5px;
+    border-left: 0.5px solid #1a4e7c;
+    border-right: 0.5px solid #1a4e7c;
+}
+
+.services {
+    margin-left: 20px;
+}
+
 
 
 
