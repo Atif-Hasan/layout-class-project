@@ -92,10 +92,16 @@ input[type=text] {
     color: #fff;
 }
 
-
-
 nav {
     text-align: center;
+}
+
+nav>ul>li {
+    border-right: 2px solid #4f91cd;
+}
+
+nav>ul>li:last-child {
+    border: none;
 }
 
 #menu {
