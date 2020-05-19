@@ -332,11 +332,11 @@ p {
 .main-img {
     position: relative;
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 60px;
-    z-index: 0;
-    overflow: hidden;
-    opacity: 0.8;
+    z-index: 2;
+    overflow: auto;
+    opacity: 1;
    
 }
 
