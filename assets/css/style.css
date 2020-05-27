@@ -247,8 +247,8 @@ h4 {
 .events {
     border: 2px solid #d3d3d3;
     width:60px;
-   
-    
+    border-radius:5px;
+    padding:2px;
 }
 
 .upcoming-events {
@@ -318,7 +318,7 @@ footer {
 }
 
 .footer-academics-text {
-    color:#94a8b4;
+    color:#bfbebe;
     padding: 10px;
 }
 
