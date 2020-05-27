@@ -198,8 +198,16 @@ img {
 
 .research-text {
     padding: 15px 4px 15px 4px;
-    font-size: 26px;
+    font-size: 31px;
     color:#fff;
+}
+
+.research-text span {
+    display: table;
+}
+
+.inner-text {
+    font-size: 31px;
 }
 
 .undergraduate-programs-heading {
