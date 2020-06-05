@@ -1,7 +1,11 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
     margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html *:focus {
+    outline: none;
 }
 
 ul {
@@ -15,6 +19,15 @@ a {
     color:#fff;
     font-size: 1.25rem;
     padding: 1.25rem;
+}
+
+a:hover, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 .top-header {
